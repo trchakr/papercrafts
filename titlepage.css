@@ -1,0 +1,76 @@
+body, html {
+    height: 100%;
+}
+.bg {
+    position: relative;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/papercrafts.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5; 
+    z-index: -1;
+}
+.jumbotron {
+    background-color: rgba(209, 237, 255, 0.855);
+    border-radius: 15px;
+    margin: 0px 50px 0px 50px;
+}
+.paper-crafts-section {
+    min-height: 100vh;
+    padding: 2rem 0;
+    background-color: #f8f9fa;
+}
+.paper-crafts-section {
+    min-height: 100vh;
+    padding: 2rem 0;
+    background-color: #f8f9fa;
+}
+.paper-crafts-title {
+    font-size: 3rem;
+    font-weight: 300; 
+    line-height: 1.2; 
+    margin-bottom: 2rem;
+}
+.placeholder-img {
+    width: 100%;
+    height: 200px;
+    background-color: rgba(209, 237, 255, 0.855);
+    margin-bottom: 1rem;
+}
+.placeholder-img.large {
+    height: 416px;
+}
+.button {
+    background-color: #1985A1;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 2px 0px 2px;
+    opacity: 0.8;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button:hover {
+    opacity: 1
+}
+.about {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
